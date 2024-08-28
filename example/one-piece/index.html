@@ -1,0 +1,28 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//unpkg.com/react/umd/react.production.min.js"></script>
+  <script src="//unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+  <script src="//unpkg.com/@babel/standalone"></script>
+
+  <script src="//unpkg.com/react-globe.gl"></script>
+  <!--<script src="../../dist/react-globe.gl.js"></script>-->
+</head>
+
+<body>
+<div id="globeViz"></div>
+
+<script type="text/jsx">
+  // Gen random data
+  const N = 300;
+
+  ReactDOM.render(
+    <Globe
+      globeImageUrl="https://cdn.discordapp.com/attachments/334862474425794571/1278176713846558780/image.png?ex=66cfda53&is=66ce88d3&hm=738783470909ad4fd2706f3bc49580d793872c63f5fd8fc547ca6b5f8f049e4d&"
+      pointAltitude="size"
+      pointColor="color"
+    />,
+    document.getElementById('globeViz')
+  );
+</script>
+</body>
