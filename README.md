@@ -1,4 +1,4 @@
-react-globe.gl 
+react-globe.gl s
 ==============
 
 [![NPM package][npm-img]][npm-url]
