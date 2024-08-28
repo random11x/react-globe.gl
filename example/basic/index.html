@@ -15,10 +15,17 @@
 <script type="text/jsx">
   // Gen random data
   const N = 300;
-
+  const gData = [...Array(N).keys()].map(() => ({
+    lat: (Math.random() - 0.5) * 180,
+    lng: (Math.random() - 0.5) * 360,
+    size: Math.random() / 3,
+    color: ['red', 'white', 'blue', 'green'][Math.round(Math.random() * 3)]
+  }));
+  
   ReactDOM.render(
     <Globe
-      globeImageUrl="https://cdn.discordapp.com/attachments/334862474425794571/1278176713846558780/image.png?ex=66cfda53&is=66ce88d3&hm=738783470909ad4fd2706f3bc49580d793872c63f5fd8fc547ca6b5f8f049e4d&"
+      globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+      pointsData={gData}
       pointAltitude="size"
       pointColor="color"
     />,
