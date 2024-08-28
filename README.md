@@ -5,7 +5,7 @@ react-globe.gl
 [![Build Size][build-size-img]][build-size-url]
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
-React bindings for the [globe.gl](https://github.com/vasturiano/globe.gl) UI component.
+React bindings for the [globe.gl](https://github.com/random11x/globe.gl) UI component.
 
 <p align="center">
    <a href="//random11x.github.io/react-globe.gl/example/world-population/"><img width="48%" src="https://random11x.github.io/react-globe.gl/example/world-population/preview.png"></a>
@@ -23,34 +23,34 @@ React bindings for the [globe.gl](https://github.com/vasturiano/globe.gl) UI com
 A React component to represent data visualization layers on a 3-dimensional globe in a spherical projection, using [ThreeJS](https://github.com/mrdoob/three.js/)/WebGL for 3D rendering.
 
 #### Check out the examples:
-* [Basic](https://random11x.github.io/react-globe.gl/example/basic/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/basic/index.html))
-* [Arc Links](https://random11x.github.io/react-globe.gl/example/random-arcs/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-arcs/index.html))
-* [Highlight links](https://random11x.github.io/react-globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/airline-routes/highlight-links.html))
-* [Choropleth](https://random11x.github.io/react-globe.gl/example/choropleth-countries/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/choropleth-countries/index.html))
-* [Elevated Polygons](https://random11x.github.io/react-globe.gl/example/countries-population/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/countries-population/index.html))
-* [Hollow Globe](https://random11x.github.io/react-globe.gl/example/hollow-globe/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/hollow-globe/index.html))
-* [Path Lines](https://random11x.github.io/react-globe.gl/example/random-paths/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-paths/index.html))
-* [Heatmap](https://random11x.github.io/react-globe.gl/example/heatmap/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/heatmap/index.html))
-* [Map Labels](https://random11x.github.io/react-globe.gl/example/world-cities/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/world-cities/index.html))
-* [HTML Markers](https://random11x.github.io/react-globe.gl/example/html-markers/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/html-markers/index.html))
-* [Hexed Country Polygons](https://random11x.github.io/react-globe.gl/example/hexed-polygons/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/hexed-polygons/index.html))
-* [Tiles](https://random11x.github.io/react-globe.gl/example/tiles/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/tiles/index.html))
-* [Ripple Rings](https://random11x.github.io/react-globe.gl/example/random-rings/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-rings/index.html))
-* [Emit Arcs on Click](https://random11x.github.io/react-globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/emit-arcs-on-click/index.html))
-* [Clouds](https://random11x.github.io/react-globe.gl/example/clouds/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/clouds/index.html))
-* [Solar Terminator](https://random11x.github.io/react-globe.gl/example/solar-terminator/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/solar-terminator/index.html))
-* [Custom Globe Styling](https://random11x.github.io/react-globe.gl/example/custom-globe-styling/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-globe-styling/index.html))
-* [Custom Layer](https://random11x.github.io/react-globe.gl/example/custom-layer/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-layer/index.html))
-* [World Population](https://random11x.github.io/react-globe.gl/example/world-population/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/world-population/index.html))
-* [Population Heatmap](https://random11x.github.io/react-globe.gl/example/population-heatmap/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/population-heatmap/index.html))
-* [Recent Earthquakes](https://random11x.github.io/react-globe.gl/example/earthquakes/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/earthquakes/index.html))
-* [World Volcanoes](https://random11x.github.io/react-globe.gl/example/volcanoes/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/volcanoes/index.html))
-* [Volcanoes Heatmap](https://random11x.github.io/react-globe.gl/example/volcanoes-heatmap/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/volcanoes-heatmap/index.html))
-* [US outbound international airline routes](https://random11x.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
-* [Earth Shield](https://random11x.github.io/react-globe.gl/example/earth-shield/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/earth-shield/index.html))
-* [Satellites](https://random11x.github.io/react-globe.gl/example/satellites/index.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/satellites/index.html))
-* [Submarine Cables](https://random11x.github.io/react-globe.gl/example/submarine-cables/index.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/submarine-cables/index.html))
-* [Moon Landing Sites](https://random11x.github.io/react-globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/moon-landing-sites/index.html))
+* [Basic](https://random11x.github.io/react-globe.gl/example/basic/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/basic/index.html))
+* [Arc Links](https://random11x.github.io/react-globe.gl/example/random-arcs/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/random-arcs/index.html))
+* [Highlight links](https://random11x.github.io/react-globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/airline-routes/highlight-links.html))
+* [Choropleth](https://random11x.github.io/react-globe.gl/example/choropleth-countries/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/choropleth-countries/index.html))
+* [Elevated Polygons](https://random11x.github.io/react-globe.gl/example/countries-population/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/countries-population/index.html))
+* [Hollow Globe](https://random11x.github.io/react-globe.gl/example/hollow-globe/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/hollow-globe/index.html))
+* [Path Lines](https://random11x.github.io/react-globe.gl/example/random-paths/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/random-paths/index.html))
+* [Heatmap](https://random11x.github.io/react-globe.gl/example/heatmap/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/heatmap/index.html))
+* [Map Labels](https://random11x.github.io/react-globe.gl/example/world-cities/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/world-cities/index.html))
+* [HTML Markers](https://random11x.github.io/react-globe.gl/example/html-markers/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/html-markers/index.html))
+* [Hexed Country Polygons](https://random11x.github.io/react-globe.gl/example/hexed-polygons/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/hexed-polygons/index.html))
+* [Tiles](https://random11x.github.io/react-globe.gl/example/tiles/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/tiles/index.html))
+* [Ripple Rings](https://random11x.github.io/react-globe.gl/example/random-rings/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/random-rings/index.html))
+* [Emit Arcs on Click](https://random11x.github.io/react-globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/emit-arcs-on-click/index.html))
+* [Clouds](https://random11x.github.io/react-globe.gl/example/clouds/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/clouds/index.html))
+* [Solar Terminator](https://random11x.github.io/react-globe.gl/example/solar-terminator/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/solar-terminator/index.html))
+* [Custom Globe Styling](https://random11x.github.io/react-globe.gl/example/custom-globe-styling/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/custom-globe-styling/index.html))
+* [Custom Layer](https://random11x.github.io/react-globe.gl/example/custom-layer/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/custom-layer/index.html))
+* [World Population](https://random11x.github.io/react-globe.gl/example/world-population/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/world-population/index.html))
+* [Population Heatmap](https://random11x.github.io/react-globe.gl/example/population-heatmap/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/population-heatmap/index.html))
+* [Recent Earthquakes](https://random11x.github.io/react-globe.gl/example/earthquakes/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/earthquakes/index.html))
+* [World Volcanoes](https://random11x.github.io/react-globe.gl/example/volcanoes/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/volcanoes/index.html))
+* [Volcanoes Heatmap](https://random11x.github.io/react-globe.gl/example/volcanoes-heatmap/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/volcanoes-heatmap/index.html))
+* [US outbound international airline routes](https://random11x.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
+* [Earth Shield](https://random11x.github.io/react-globe.gl/example/earth-shield/) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/earth-shield/index.html))
+* [Satellites](https://random11x.github.io/react-globe.gl/example/satellites/index.html) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/satellites/index.html))
+* [Submarine Cables](https://random11x.github.io/react-globe.gl/example/submarine-cables/index.html) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/submarine-cables/index.html))
+* [Moon Landing Sites](https://random11x.github.io/react-globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/random11x/react-globe.gl/blob/master/example/moon-landing-sites/index.html))
 
 ## Quick start
 
@@ -117,7 +117,7 @@ ReactDOM.render(
 | <b>showAtmosphere</b> | <i>bool</i> | `true` | Whether to show a bright halo surrounding the globe, representing the atmosphere. |
 | <b>atmosphereColor</b> | <i>string</i> | `lightskyblue` | The color of the atmosphere. |
 | <b>atmosphereAltitude</b> | <i>string</i> | 0.15 | The max altitude of the atmosphere, in terms of globe radius units. |
-| <b>globeMaterial</b> | <i>Material</i> | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) | ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-globe-styling/index.html). |
+| <b>globeMaterial</b> | <i>Material</i> | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) | ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/random11x/react-globe.gl/blob/master/example/custom-globe-styling/index.html). |
 | <b>onGlobeReady</b> | <i>func</i> | *-* | Callback function to invoke immediately after the globe has been initialized and visible on the scene. |
 | <b>onGlobeClick</b> | <i>func</i> | *-* | Callback function for (left-button) clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeClick({ lat, lng }, event)`. |
 | <b>onGlobeRightClick</b> | <i>func</i> | *-* | Callback function for right-clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeRightClick({ lat, lng }, event)`. |
@@ -212,7 +212,7 @@ ReactDOM.render(
 | <b>pathPointAlt</b> | <i>number</i>, <i>string</i> or <i>func</i> | 0.001 | Path point object accessor function, attribute or a numeric constant for the point altitude, in terms of globe radius units (`0` = 0 altitude (ground), `1` = globe radius). |
 | <b>pathResolution</b> | <i>number</i> | 2 | The path's angular resolution, in lat/lng degrees. If the ground distance (excluding altitude) between two adjacent path points is larger than this value, the line segment will be interpolated in order to approximate the curvature of the sphere surface. Lower values yield more perfectly curved lines, at the cost of performance. |
 | <b>pathColor</b> | <i>string</i>, <i>[string, ...]</i> or <i>func</i> | `() => '#ffffaa'` | Path object accessor function or attribute for the line's color. Also supports color gradients by passing an array of colors, or a color interpolator function. Transparent colors are not supported in Fat Lines with set width. |
-| <b>pathStroke</b> | <i>number</i>, <i>string</i> or <i>func</i> | `null` | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/vasturiano/three-fatline) is used. |
+| <b>pathStroke</b> | <i>number</i>, <i>string</i> or <i>func</i> | `null` | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/random11x/three-fatline) is used. |
 | <b>pathDashLength</b> | <i>number</i>, <i>string</i> or <i>func</i> | 1 | Path object accessor function, attribute or a numeric constant for the length of the dashed segments in the path line, in terms of relative length of the whole line (`1` = full line length). |
 | <b>pathDashGap</b> | <i>number</i>, <i>string</i> or <i>func</i> | 0 | Path object accessor function, attribute or a numeric constant for the length of the gap between dash segments, in terms of relative line length. |
 | <b>pathDashInitialGap</b> | <i>number</i>, <i>string</i> or <i>func</i> | 0 | Path object accessor function, attribute or a numeric constant for the length of the initial gap before the first dash segment, in terms of relative line length. |
